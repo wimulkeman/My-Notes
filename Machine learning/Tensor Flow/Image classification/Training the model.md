@@ -17,6 +17,7 @@ The expected structure for the setup where the command is used, is
                 image3.jpg
                 image4.jpg
                 ....
+        label_image.py  # The python file for labeling images after training the model
 ```
 
 The content of the sh file is used to run a docker image for the training
@@ -127,9 +128,20 @@ with tf.Session() as sess:
         print('%s (score = %.5f)' % (human_string, score))
 ```
 
+# 4. Run the classification on a image
+
+Run the following command to classify a image
+
+```bash
+python /tf_files/label_image.py /tf_files/images/image_label1/image1.jpg
+```
+
+This will output a list met prediction scores which will give the scores for
+the labels which are defined.
+
 # Troubleshooting
 
-### Canoot im port name graph_util
+### Cannot import name graph_util
 
 When running a new version of the TF repo, you could encounter the following
 error when running the command.
