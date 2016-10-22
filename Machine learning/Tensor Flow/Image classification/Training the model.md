@@ -89,6 +89,26 @@ labels for the images within them.
 After the command has been run, there is a number shown which is the expected
 precision of the trained model.
 
+```bash
+2016-10-22 02:29:13.553649: Step 470: Train accuracy = 90.0%
+2016-10-22 02:29:13.553737: Step 470: Cross entropy = 0.334267
+2016-10-22 02:29:13.898204: Step 470: Validation accuracy = 81.0%
+2016-10-22 02:29:17.366515: Step 480: Train accuracy = 95.0%
+2016-10-22 02:29:17.366603: Step 480: Cross entropy = 0.282858
+2016-10-22 02:29:17.712904: Step 480: Validation accuracy = 83.0%
+2016-10-22 02:29:21.181999: Step 490: Train accuracy = 97.0%
+2016-10-22 02:29:21.182090: Step 490: Cross entropy = 0.257443
+2016-10-22 02:29:21.575653: Step 490: Validation accuracy = 80.0%
+2016-10-22 02:29:24.680511: Step 499: Train accuracy = 93.0%
+2016-10-22 02:29:24.680597: Step 499: Cross entropy = 0.356517
+2016-10-22 02:29:25.039826: Step 499: Validation accuracy = 75.0%
+Final test accuracy = 92.6%
+Converted 2 variables to const ops.
+```
+
+This number is the expected accuracy for all the labels combined. The
+precision per label can be higher or lower.
+
 # 3. Write a script to classify images
 
 To classify a image, the im age is directed to a python file. THis contains
