@@ -26,7 +26,11 @@ of the TF image classification.
 The content of run_tf_image_classification.sh
 
 ```bash
-docker run -it -d -v $(pwd)/tf_files:/tf_files -v $(pwd)/tensorflow:/tensorflow --name tensorflow gcr.io/tensorflow/tensorflow:latest-devel
+docker run -it -d \
+    -v $(pwd)/tf_files:/tf_files \
+    -v $(pwd)/tensorflow:/tensorflow \
+    --name tensorflow \
+    gcr.io/tensorflow/tensorflow:latest-devel
 ```
 
 For the use within most of the tutorials, the use of the **latest-devel** image is
