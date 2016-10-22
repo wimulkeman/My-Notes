@@ -111,7 +111,7 @@ precision per label can be higher or lower.
 
 # 3. Write a script to classify images
 
-To classify a image, the im age is directed to a python file. THis contains
+To classify a image, the im age is directed to a python file. This contains
 the following code.
 
 ```python
