@@ -26,8 +26,13 @@ of the TF image classification.
 The content of run_tf_image_classification.sh
 
 ```bash
-docker run -it -d -v $(pwd)/tf_files:/tf_files -v $(pwd)/tensorflow:/tensorflow --name tensorflow gcr.io/tensorflow/tensorflow
+docker run -it -d -v $(pwd)/tf_files:/tf_files -v $(pwd)/tensorflow:/tensorflow --name tensorflow gcr.io/tensorflow/tensorflow:latest-devel
 ```
+
+For the use within most of the tutorials, the use of the **latest-devel** image is
+important. In this image the tensorflow directory is available in the root of the
+docker image. In the other versions of the immage, tensorflow is available as a
+binary file in the root.
 
 # 1. Running the command
 
