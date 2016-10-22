@@ -6,7 +6,6 @@ The expected structure for the setup where the command is used, is
 ```
 ./tensor_flow_image_classification
     run_tf_image_classification.sh
-    tensorflow  # contains the latest git pull from the Tensor Flow repo
     tf_files
         images
             image_label_1
@@ -28,7 +27,6 @@ The content of run_tf_image_classification.sh
 ```bash
 docker run -it -d \
     -v $(pwd)/tf_files:/tf_files \
-    -v $(pwd)/tensorflow:/tensorflow \
     --name tensorflow \
     gcr.io/tensorflow/tensorflow:latest-devel
 ```
@@ -43,7 +41,7 @@ binary file in the root.
 The command to train the Tensor Flow image classifier is
 
 ```bash
-python tensorflow/examples/image_retraining/retrain.py \
+python /tensorflow/tensorflow/examples/image_retraining/retrain.py \
     --bottleneck_dir=/tf_files/bottlenecks \
     --how_many_training_steps=500 \
     --model_dir=/tf_files/inception \
