@@ -11,6 +11,21 @@ process of back tracking errors through the weights of the
 network after forward propagating inputs through the network.
 This is used by applying the chain rule in calculus.
 
+## Bayesian Program Learning
+
+A learning mechanism, where the network trains on a low number of
+data examples, which could even be one example. The network makes its
+guess on what most likely the outcome will be. If the network is incorrect
+the weights are recalculated.
+
+- Quora - [What is Bayesian Program Learning (BPL)?](https://www.quora.com/What-is-Bayesian-Program-Learning-BPL)
+- Paper - [Human-level concept learning through probabilistic program induction](http://web.mit.edu/cocosci/Papers/Science-2015-Lake-1332-8.pdf)
+- Github - [BPL](https://github.com/brendenlake/BPL)
+- Github - [PyBPL](https://github.com/MaxwellRebo/PyBPL)
+- Paper - [One-shot Learning with Memory-Augmented Neural Networks](https://arxiv.org/pdf/1605.06065v1.pdf)
+- Github - [ntm-one-shot](https://github.com/tristandeleu/ntm-one-shot)
+- Paper - [Matching Networks for One Shot Learning](https://arxiv.org/pdf/1606.04080v1.pdf)
+
 # C
 
 ## Chain formula
@@ -18,7 +33,7 @@ This is used by applying the chain rule in calculus.
 In calculus the chain formula is used to compute the derivative
 of the composition of two or more functions.
 
-Wikipedia - [Chain rule](https://en.wikipedia.org/wiki/Chain_rule)
+- Wikipedia - [Chain rule](https://en.wikipedia.org/wiki/Chain_rule)
 
 ## CNN
 
@@ -34,7 +49,7 @@ A Convolutional Neural Network s a type of feed-forward artificial
 neural network in which the connectivity pattern between its
 neurons is inspired by the organization of the animal visual cortex.
 
-Wikipedia - [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+- Wikipedia - [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
 # D
 
@@ -43,7 +58,7 @@ Wikipedia - [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolu
 Dependent variables represent the output or outcome whose variation is
 being studied.
 
-Wikipedia - [Dependent and independent variables](https://en.wikipedia.org/wiki/Dependent_and_independent_variables)
+- Wikipedia - [Dependent and independent variables](https://en.wikipedia.org/wiki/Dependent_and_independent_variables)
 
 ## Derivative
 
@@ -51,7 +66,7 @@ The derivative of a function of a real variable measure the sensitivity
 to change (a function value or dependent variable) which is determined
 by another quantity (the independent variable).
 
-Wikipedia - [Derivative](https://en.wikipedia.org/wiki/Derivative)
+- Wikipedia - [Derivative](https://en.wikipedia.org/wiki/Derivative)
 
 # E
 
@@ -80,7 +95,7 @@ decrease our loss.
 Independent variables are the input or causes which are
 potential reasons for variation.
 
-Wikipedia - [Dependent and independent variables](https://en.wikipedia.org/wiki/Dependent_and_independent_variables)
+- Wikipedia - [Dependent and independent variables](https://en.wikipedia.org/wiki/Dependent_and_independent_variables)
 
 ## Inductive transfer
 
@@ -97,7 +112,7 @@ is a linear function (linear combination) of a set of coefficients
 and explanatory variables (independent variables), whose value is
 used to predict the outcome of a dependent variable.
 
-Wikipedia - [Linear predictior function](https://en.wikipedia.org/wiki/Linear_predictor_function)
+- Wikipedia - [Linear predictior function](https://en.wikipedia.org/wiki/Linear_predictor_function)
 
 ## Linear regression
 
@@ -112,7 +127,7 @@ In linear regression, the relationships are modeled using linear
 predictor functions whose unknown model parameters are estimated from
 the data. Such models are called linear models.
 
-Wikipedia - [Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
+- Wikipedia - [Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
 
 ## Logistic curve
 
@@ -127,7 +142,7 @@ with the equation:
 
 ![Logistic curve](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg)
 
-Wikipedia - [Logistic function](https://en.wikipedia.org/wiki/Logistic_function)
+- Wikipedia - [Logistic function](https://en.wikipedia.org/wiki/Logistic_function)
 
 # M
 
@@ -142,6 +157,15 @@ See linear regression.
 See Gradient.
 
 # O
+
+## One Shot Learning
+
+See Bayesian Program Learning.
+
+## Output tensor
+
+See Tensor.
+
 # P
 # Q
 # R
@@ -177,12 +201,38 @@ logistic function and is best suited for linear regression.
 
 # T
 
+## Tensor
+
+In Machine Learning, tensors are the multidimensional arrays of data
+that flows through the learning network.
+
+Based on the data, a output tensor is created. This is the result of
+the processing of the tensors.
+
+- Stack Exchange - [Why the sudden fascination with tensors?](http://stats.stackexchange.com/a/198395)
+- Youtube - [Tensorboard Explained in 5 Min](https://www.youtube.com/watch?v=3bownM3L5zM)
+
+## Tensorboard
+
+Tensorboard is a package bundles with Tensorflow, which visualizes the learning
+process of a learning network. This is ideal for debugging and optimizing because
+it also enables to see stats like memory and cpu usage en processing time.
+
+- Youtube - [Tensorboard Explained in 5 Min](https://www.youtube.com/watch?v=3bownM3L5zM)
+- Tensorflow - [Tensorboard: Visualize learning](https://www.tensorflow.org/versions/r0.12/how_tos/summaries_and_tensorboard/index.html)
+
+## Tensorflow
+
+A Machine Learning framework open sourced by Google.
+
+- [Tensorflow](https://www.tensorflow.org)
+
 ## Transfer learning
 
 Using the knowledge of a previous solved problem, and use this knowledge
 (for example image recognition) for a different but related problem.
 
-Wikipedia [Inductive transfer](https://en.wikipedia.org/wiki/Inductive_transfer)
+- Wikipedia - [Inductive transfer](https://en.wikipedia.org/wiki/Inductive_transfer)
 
 # U
 # V
@@ -201,7 +251,7 @@ of multiplying n of these small numbers to compute gradients of the "front"
 layers in an n-layer network, meaning that the gradient (error signal)
 decreases exponentially with n and the front layers train very slowly.
 
-Wikipedia - [Vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem)
+- Wikipedia - [Vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem)
 
 # W
 # X
