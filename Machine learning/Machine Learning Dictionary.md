@@ -82,7 +82,7 @@ potential reasons for variation.
 
 Wikipedia - [Dependent and independent variables](https://en.wikipedia.org/wiki/Dependent_and_independent_variables)
 
-## Inductive learning
+## Inductive transfer
 
 See transfer learning
 
@@ -181,6 +181,8 @@ logistic function and is best suited for linear regression.
 
 Using the knowledge of a previous solved problem, and use this knowledge
 (for example image recognition) for a different but related problem.
+
+Wikipedia [Inductive transfer](https://en.wikipedia.org/wiki/Inductive_transfer)
 
 # U
 # V
