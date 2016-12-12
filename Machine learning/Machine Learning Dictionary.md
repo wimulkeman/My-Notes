@@ -281,3 +281,4 @@ decreases exponentially with n and the front layers train very slowly.
 ## Resources
 
 - Medium - [Deep Learning Cheat Sheet](https://hackernoon.com/deep-learning-cheat-sheet-25421411e460#.1fde6uhjf)
+- RapidTables - [Mathematical Symbols](http://www.rapidtables.com/math/symbols/index.htm)
