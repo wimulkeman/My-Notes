@@ -248,6 +248,7 @@ objects in a variety fields:
 * Cancer research
 * Music/sound analysis (for example bird sounds)
 
+Further description is found under My Notes > t-SNE Algorithm
 - My Notes - [t-SNE Algorithm](t-SNE%20Algorithm)
 
 ## T-SNE
