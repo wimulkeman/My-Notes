@@ -234,6 +234,26 @@ Using the knowledge of a previous solved problem, and use this knowledge
 
 - Wikipedia - [Inductive transfer](https://en.wikipedia.org/wiki/Inductive_transfer)
 
+## T-distributed stochastic neighbor
+
+The t-SNE algorithm is a machine learning algorithm
+used to visualize high-dimensional data into a two or
+three dimension space. The algorithm uses dimensionality
+reduction for this, and is a nonlinear dimensionality
+reduction technique.
+
+It is used to find similarities in text, sound and other
+objects in a variety fields:
+* Computer science
+* Cancer research
+* Music/sound analysis (for example bird sounds)
+
+- My Notes - [t-SNE Algorithm](t-SNE%20Algorithm)
+
+## T-SNE
+
+See t-distributed stochastic neighbor.
+
 # U
 # V
 
