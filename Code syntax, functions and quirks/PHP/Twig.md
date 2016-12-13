@@ -50,4 +50,4 @@ Twig
 ```
 
 # Resources
-- https://knpuniversity.com/screencast/twig/for-loop-inline-if
+- Knp University - [The for “loop” and inline “if” Syntax](https://knpuniversity.com/screencast/twig/for-loop-inline-if)
