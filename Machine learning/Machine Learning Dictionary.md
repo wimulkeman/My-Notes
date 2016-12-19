@@ -75,6 +75,12 @@ by another quantity (the independent variable).
 See independent variable.
 
 # F
+
+## Factorial (2!)
+
+The factorial of a number is all the numbers multiplied up to that number.
+The factorial of 3 = 3! = 1 x 2 x 3.
+
 # G
 
 ## Gradient &nabla;
