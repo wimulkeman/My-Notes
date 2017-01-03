@@ -1,7 +1,7 @@
 Twig
 ====
 
-# For loop with inline if with and
+# For loop with if with and
 
 ```twig
 <div class="row">
@@ -13,6 +13,18 @@ Twig
         {% if loop.index is divisibleby(3) and not loop.last %}
             </div><div class="row">
         {% endif %}
+    {% endfor %}
+</div>
+```
+
+# For loop with inline if check
+
+```twig
+<div class="row">
+    {% for product in products if product.name is not empty %}
+        <div class="span4">
+            {{ product.name }}
+        </div>
     {% endfor %}
 </div>
 ```
