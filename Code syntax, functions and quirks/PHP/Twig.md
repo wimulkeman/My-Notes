@@ -29,6 +29,24 @@ Twig
 </div>
 ```
 
+# For loop with the usage of bash (array_chunk)
+
+```twig
+ <div class="grid">
+    {% for rows in items | batch(4) %}
+        <div class="grid__item">
+            <ul class="nav__items">
+                {% for colum in rows if colum.name is not empty %}
+                    <li class="nav__item">
+                        {{ column.name }}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+</div>
+```
+
 # Check if argument is a even number
 
 ```twig
