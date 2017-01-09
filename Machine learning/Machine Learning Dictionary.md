@@ -2,6 +2,30 @@ Machine Learning Dictionary
 ===========================
 
 # A
+
+## Artificial Neural Network
+
+Neural networks are a computational approach which is based on a large
+collection of neural units (AKA artificial neurons).
+
+- Wikipedia - [Artificial Neural Network](https://en.wikipedia.org/wiki/Artificial_neural_network)
+
+## Artificial neuron
+
+An artificial neuron is a mathematical function conceived as a model of
+biological neurons. Artificial neurons are the constitutive units in an
+artificial neural network. Depending on the specific model used they may
+be called a semi-linear unit, Nv neuron, binary neuron, linear threshold
+function, or McCulloch–Pitts (MCP) neuron. The artificial neuron receives
+one or more inputs (representing dendrites) and sums them to produce an
+output (representing a neuron's axon). Usually the sums of each node are
+weighted, and the sum is passed through a non-linear function known as an
+activation function or transfer function. The transfer functions usually
+have a sigmoid shape, but they may also take the form of other non-linear
+functions, piecewise linear functions, or step functions.
+
+- Wikipedia - [Artificial neuron](https://en.wikipedia.org/wiki/Artificial_neuron)
+
 # B
 
 ## Back Propagation
@@ -26,6 +50,10 @@ the weights are recalculated.
 - Github - [ntm-one-shot](https://github.com/tristandeleu/ntm-one-shot)
 - Paper - [Matching Networks for One Shot Learning](https://arxiv.org/pdf/1606.04080v1.pdf)
 
+## Binary neuron
+
+See artificial neuron.
+
 # C
 
 ## Chain formula
@@ -39,6 +67,14 @@ of the composition of two or more functions.
 
 See Convolutional Neural Network.
 
+## Conditional maximum entropy model
+
+See Multinomial logistic regression.
+
+## Connectionist systems
+
+See Artificial Neural Networks.
+
 ## ConvNet
 
 See Convolutional Neural Network.
@@ -48,6 +84,8 @@ See Convolutional Neural Network.
 A Convolutional Neural Network s a type of feed-forward artificial
 neural network in which the connectivity pattern between its
 neurons is inspired by the organization of the animal visual cortex.
+
+See also Artificial Neural Network.
 
 - Wikipedia - [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
@@ -68,6 +106,12 @@ by another quantity (the independent variable).
 
 - Wikipedia - [Derivative](https://en.wikipedia.org/wiki/Derivative)
 
+## Directed cycle
+
+A directed cycle is a cycle which can only be followed in one direction.
+Except for the start and end point, none of the vertices and edges may be
+traversed more than once until the walk is completed.
+
 # E
 
 ## Explanatory variable
@@ -81,7 +125,37 @@ See independent variable.
 The factorial of a number is all the numbers multiplied up to that number.
 The factorial of 3 = 3! = 1 x 2 x 3.
 
+## Feedforward neural network
+
+A feedforward neural network is a artificial neural network where the
+connections between the units do not form a cycle.
+
+This type of nueral network was the first and simplest type of artificial
+neural networks.
+
+- Wikipedia [Feedforward neural network](https://en.wikipedia.org/wiki/Feedforward_neural_network)
+
 # G
+
+## Gated Recurrent Unit
+
+A GRU is similar to LSTM, but have fewer parameters than a LSTM. That is
+because they lack an output gate.
+
+![LSTM / GRU](https://cdn-images-1.medium.com/max/2000/1*K9g9EOeQ9Ca0jdOMmXKrQg.png)
+
+- Wikipedia - (Gated Recurrent Unit)[https://en.wikipedia.org/wiki/Gated_recurrent_unit]
+
+## GNMT
+
+See Google Neural Machine Translation system.
+
+## Google Neural Machine Translation system
+
+The translation system build by Google which uses Machine Learning for
+its translation. One of the methods used is Recurrent Neural Networks.
+
+- Google Research Blog - [A Neural Network for Machine Translation, at Production Scale](https://research.googleblog.com/2016/09/a-neural-network-for-machine.html)
 
 ## Gradient &nabla;
 
@@ -92,6 +166,10 @@ tells us which direction to go on the graph to increase
 our output if we increase our variable input. We use the
 gradient and go in the opposite direction since we want to
 decrease our loss.
+
+## GRU
+
+See Gated Recurrent Unit.
 
 # H
 # I
@@ -110,6 +188,14 @@ See transfer learning
 # J
 # K
 # L
+
+## L1 and L2 regularization
+
+These regularization methods prevent overfitting by imposing a penalty
+on the coefficients. L1 can yield sparse models while L2 cannot.
+Regularization is used to specify model complexity. Because of this,
+models generalize better and don't become overfitted with the training
+data.
 
 ## linear predictor function
 
@@ -135,6 +221,10 @@ the data. Such models are called linear models.
 
 - Wikipedia - [Linear regression](https://en.wikipedia.org/wiki/Linear_regression)
 
+## Linear threshold function
+
+See artificial neuron.
+
 ## Logistic curve
 
 See Logistic function.
@@ -150,7 +240,55 @@ with the equation:
 
 - Wikipedia - [Logistic function](https://en.wikipedia.org/wiki/Logistic_function)
 
+## Long Short Term Memory
+
+LSTM is often used in Recurrent Neural Networks, but can be used in other
+implementations. They are used as little memory units that keep state between
+the inputs for training the network. They also help solving the vanishing
+gradient problem.
+
+![LSTM / GRU](https://cdn-images-1.medium.com/max/2000/1*K9g9EOeQ9Ca0jdOMmXKrQg.png)
+
+- Wikipedia - [Long Short Term Memory](https://en.wikipedia.org/wiki/Long_short-term_memory)
+
+## LSTM
+
+See Long Short Term Memory.
+
 # M
+
+## MaxEnt
+
+See Maximum entropy classifier.
+
+## Maximum entropy classifier
+
+See Multinomial logistic regression.
+
+## McCulloch-Pitts Neuron
+
+See artificial neuron.
+
+## MCP Neuron
+
+See McCulloch-Pitts Neuron.
+
+## Multiclass LR
+
+See Multinomial logistic regression.
+
+## Multinomial logistic regression
+
+In statistics, multinomial logistic regression is a
+classification method that generalizes logistic regression
+to multiclass problems, i.e. with more than two possible
+discrete outcomes.
+
+- Wikipedia - [Multinomial logistic regression](https://en.wikipedia.org/wiki/Multinomial_logistic_regression)
+
+## Multinomial logit
+
+See Multinomial logistic regression.
 
 ## Multiple linear regression
 
@@ -161,6 +299,14 @@ See linear regression.
 ## Nabla
 
 See Gradient.
+
+## Neural networks
+
+See Artificial Neural Networks.
+
+## NV neuron
+
+See artificial neuron.
 
 # O
 
@@ -173,6 +319,11 @@ See Bayesian Program Learning.
 See Tensor.
 
 # P
+
+## Polytomous LR
+
+See Multinomial logistic regression.
+
 # Q
 # R
 
@@ -184,11 +335,30 @@ regression, and the ReLU better for representing positive numbers.
 
 The ReLU does not suffer from the vanishing gradient problem.
 
+## Recurrent Neural Network
+
+A recurrent neural network is a class of artificial neural network where
+connections between units form a directed cycle. This creates an internal
+state of the network which allows it to exhibit dynamic temporal behavior.
+Unlike feedforward neural networks, RNNs can use their internal memory to
+process arbitrary sequences of inputs. This makes them applicable to tasks
+such as unsegmented connected handwriting recognition or speech recognition.
+
+- Wikipedia - [Recurrent Neural Network](https://en.wikipedia.org/wiki/Recurrent_neural_network)
+
 ## ReLU
 
 See Rectified Linear Units.
 
+## RNN
+
+See Recurrent Neural Network.
+
 # S
+
+## Semi-linear unit
+
+See artificial neuron.
 
 ## Simple linear regression
 
@@ -205,7 +375,26 @@ in the interval of [0,1]. The function graphed out is &sigmaf;, but
 is sometimes written as &sigma;. The Sigmid function is known as a
 logistic function and is best suited for linear regression.
 
+## Softmax
+
+Softmax is a function usually called at the end of a Neural Network
+for classification. This functions does a multinomial logistic regression
+and is generally used for multi class classification. Cross entropy is
+often used in combination as a loss function.
+
+## Softmax regression
+
+See Multinomial logistic regression.
+
 # T
+
+## Tanh
+
+Tanh is a function used to initialize the weights of a network as [-1,1].
+The better the data is normalized, the stronger the gradient wil be. When
+the data becomes more centered around the 0, the derivative will be higher.
+
+![Tanh function](https://cdn-images-1.medium.com/max/2000/1*QYeGYddNRbrBJjkNxzw9FQ.png)
 
 ## Tensor
 
@@ -277,6 +466,9 @@ back propagation computes gradients by the chain rule. This has the effect
 of multiplying n of these small numbers to compute gradients of the "front"
 layers in an n-layer network, meaning that the gradient (error signal)
 decreases exponentially with n and the front layers train very slowly.
+
+By Recurrent Neural Networks and a vanishing gradient problem, the
+networks begins to lose the context of the input prior after about 7 steps.
 
 - Wikipedia - [Vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem)
 
