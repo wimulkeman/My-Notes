@@ -79,5 +79,12 @@ Twig
 </div>
 ```
 
+# Usage of a variable within a string
+
+```twig
+{# Concat the icon variable into the iconClass string #}
+{% set iconClass = 'icon-${icon}'; %}
+```
+
 # Resources
 - Knp University - [The for “loop” and inline “if” Syntax](https://knpuniversity.com/screencast/twig/for-loop-inline-if)
