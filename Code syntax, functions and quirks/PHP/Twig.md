@@ -83,7 +83,8 @@ Twig
 
 ```twig
 {# Concat the icon variable into the iconClass string #}
-{% set iconClass = 'icon-${icon}'; %}
+{% set iconClass = "icon-${icon}"; %}
+{% set foo = bar["static#{dynamicVar}"]; %}
 ```
 
 # Resources
