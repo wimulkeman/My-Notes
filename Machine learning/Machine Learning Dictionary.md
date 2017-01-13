@@ -91,6 +91,13 @@ See also Artificial Neural Network.
 
 # D
 
+## Data Augmentation
+
+A process where existing data is slightly modified to create more training
+data which represents the same values as the original data.
+
+- R-Bloggers - [What you need to know about data augmentation for machine learning](https://www.r-bloggers.com/what-you-need-to-know-about-data-augmentation-for-machine-learning/)
+
 ## Dependent variable
 
 Dependent variables represent the output or outcome whose variation is
@@ -173,6 +180,10 @@ See Gated Recurrent Unit.
 
 # H
 # I
+
+## Image Augmentation
+
+See data augmentation.
 
 ## Independent variable
 
