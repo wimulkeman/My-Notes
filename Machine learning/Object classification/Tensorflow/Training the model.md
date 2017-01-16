@@ -165,6 +165,15 @@ python /tf_files/label_image.py /tf_files/images/image_label1/image1.jpg
 This will output a list met prediction scores which will give the scores for
 the labels which are defined.
 
+# Create more images
+
+With a process called Data Augmentation the available stack of images can be
+expended by augmenting available images into slightly different images.
+
+- StackOverflow - [Altering trained images to train neural network](http://stackoverflow.com/questions/41625252/altering-trained-images-to-train-neural-network)
+- Cofilab - [Image sets](http://www.cofilab.com/downloads/)
+- GitHub - [Image Augmentation](https://github.com/aleju/imgaug)
+
 # Troubleshooting
 
 ### Cannot import name graph_util

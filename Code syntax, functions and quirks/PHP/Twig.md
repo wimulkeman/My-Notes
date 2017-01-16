@@ -79,5 +79,26 @@ Twig
 </div>
 ```
 
+# Usage of a variable within a string
+
+```twig
+{# Concat the icon variable into the iconClass string #}
+{% set iconClass = "icon-${icon}"; %}
+{% set foo = bar["static#{dynamicVar}"]; %}
+```
+
+# String replace
+
+```twig
+{{ "I like %this% and %that%."|replace({'%this%': foo, '%that%': "bar"}) }}
+
+{% set twig_content_variable= 'Testing to replace content'%}
+{% set replace_value_var= 'Testing' %}
+{% set replace_with_value_var = 'Testing complete' %} 
+
+{{ twig_content_variable|replace({ (replace_value_var): replace_with_value_var }) }}
+```
+
 # Resources
 - Knp University - [The for “loop” and inline “if” Syntax](https://knpuniversity.com/screencast/twig/for-loop-inline-if)
+- Stack Overflow - [str_replace in Twig](http://stackoverflow.com/questions/4943880/str-replace-in-twig)

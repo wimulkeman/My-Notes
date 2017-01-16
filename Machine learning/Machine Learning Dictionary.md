@@ -108,6 +108,13 @@ an error in the prediction.
 
 # D
 
+## Data Augmentation
+
+A process where existing data is slightly modified to create more training
+data which represents the same values as the original data.
+
+- R-Bloggers - [What you need to know about data augmentation for machine learning](https://www.r-bloggers.com/what-you-need-to-know-about-data-augmentation-for-machine-learning/)
+
 ## Dependent variable
 
 Dependent variables represent the output or outcome whose variation is
@@ -215,6 +222,10 @@ The name for a method which is used for object detection.
 - Wikipedia - [Haar-like features](https://en.wikipedia.org/wiki/Haar-like_features)
 
 # I
+
+## Image Augmentation
+
+See data augmentation.
 
 ## Independent variable
 
