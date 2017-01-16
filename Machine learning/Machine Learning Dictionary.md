@@ -35,6 +35,14 @@ process of back tracking errors through the weights of the
 network after forward propagating inputs through the network.
 This is used by applying the chain rule in calculus.
 
+## Batch normalization
+
+When a network has many deep layers, they get issues with internal covariate
+shift. The shift is “the change in the distribution of network activations
+due to the change in network parameters during training.” (Szegedy). Reducing
+this shift helps training faster and better. Batch normalization solved this
+problem by normalization each batch into the network by both mean and variance. 
+
 ## Bayesian Program Learning
 
 A learning mechanism, where the network trains on a low number of
@@ -89,6 +97,15 @@ See also Artificial Neural Network.
 
 - Wikipedia - [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
+## Cross entropy
+
+Cross entropy is used to calculate how far off the label prediction is.
+It is a loss function which is related to the entropy of thermodynamics
+concept of entropy. It is used in the multiclass classification to find
+an error in the prediction.
+
+![Cross entropy function](https://cdn-images-1.medium.com/max/1600/1*9ZBskBY_piVwqC4GdZRl8g.png)
+
 # D
 
 ## Dependent variable
@@ -112,6 +129,16 @@ A directed cycle is a cycle which can only be followed in one direction.
 Except for the start and end point, none of the vertices and edges may be
 traversed more than once until the walk is completed.
 
+## Drop-out
+
+Drop is a method used to prevent overfitting within a network, and gives
+the opportunity to combine multiple types of network. Within this method
+visible and hidden units are picked randomly from the network and dropped.
+
+Mostly this is done by giving a percentage for a layer for the drop-out.
+
+![Drop-out in a Neural Network](https://cdn-images-1.medium.com/max/1600/1*XkDC2Iwb9jSyRIWBUoDFtQ.png)
+
 # E
 
 ## Explanatory variable
@@ -119,6 +146,13 @@ traversed more than once until the walk is completed.
 See independent variable.
 
 # F
+
+## F1/F Score
+
+The measurement of how accurate a model is by using the calculation
+of the precision and recall within the following formula.
+
+F1 = 2 * (Precision * Recall) / (Precision + Recall)
 
 ## Factorial (2!)
 
@@ -172,6 +206,14 @@ decrease our loss.
 See Gated Recurrent Unit.
 
 # H
+
+## Haar cascade
+
+The name for a method which is used for object detection.
+
+- Python Programming - [Cascade OpenCV Python Tutorial](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/)
+- Wikipedia - [Haar-like features](https://en.wikipedia.org/wiki/Haar-like_features)
+
 # I
 
 ## Independent variable
@@ -251,6 +293,10 @@ gradient problem.
 
 - Wikipedia - [Long Short Term Memory](https://en.wikipedia.org/wiki/Long_short-term_memory)
 
+## Loss function
+
+See Objective function.
+
 ## LSTM
 
 See Long Short Term Memory.
@@ -310,9 +356,18 @@ See artificial neuron.
 
 # O
 
+## Objective function
+
+The goal of the function in a network is to minimize the loss so to
+maximize the accuracy of the network.
+
 ## One Shot Learning
 
 See Bayesian Program Learning.
+
+## Optimization function
+
+See Objective function.
 
 ## Output tensor
 
@@ -321,11 +376,26 @@ See Tensor.
 # P
 
 ## Polytomous LR
-
+    
 See Multinomial logistic regression.
+
+
+## Precision
+
+Precise is the calculation of every prediction, which were actually
+positive.
+
+Precision = true positives / (true positives + false positives).
 
 # Q
 # R
+
+## Recall
+
+Recall is the calculation of all that have positive predictions, which
+ones actually were positive.
+
+Recall = True Positives / (True Positives + False Negatives).
 
 ## Rectified Linear Units
 
