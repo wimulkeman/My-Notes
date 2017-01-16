@@ -314,6 +314,11 @@ See Long Short Term Memory.
 
 # M
 
+## Matrix
+
+An matrix is a 2D array of numbers. Instead of like a vector, in a
+matrix a single element is identified by two indexes.
+
 ## MaxEnt
 
 See Maximum entropy classifier.
@@ -437,6 +442,10 @@ See Recurrent Neural Network.
 
 # S
 
+## Scalar
+
+A single number.
+
 ## Semi-linear unit
 
 See artificial neuron.
@@ -552,6 +561,10 @@ By Recurrent Neural Networks and a vanishing gradient problem, the
 networks begins to lose the context of the input prior after about 7 steps.
 
 - Wikipedia - [Vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem)
+
+## Vector
+
+An array of numbers where each element is identified by a single index.
 
 # W
 # X
