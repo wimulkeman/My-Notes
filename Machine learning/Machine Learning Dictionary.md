@@ -240,6 +240,14 @@ See transfer learning
 
 # J
 # K
+
+## Keras
+
+Keras is a high level neural network which uses eather Tensorflow, or Theano.
+It became the default higher level layer for Tensorflow since v1.0.
+
+- [Keras](https://keras.io/)
+
 # L
 
 ## L1 and L2 regularization
