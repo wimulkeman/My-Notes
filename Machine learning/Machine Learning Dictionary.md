@@ -520,6 +520,11 @@ A Machine Learning framework open sourced by Google.
 
 - [Tensorflow](https://www.tensorflow.org)
 
+## Training loss
+
+The prediction of how well the RNN predicted the next part, while being fed
+training data. Lower score is better.
+
 ## Transfer learning
 
 Using the knowledge of a previous solved problem, and use this knowledge
@@ -550,6 +555,12 @@ See t-distributed stochastic neighbor.
 
 # U
 # V
+
+## Validation loss
+
+In some training scenarios for a RNN, the network generates a set of data on its
+own which should resemble the validation sequence it is changed on. This is than
+mapped to the real validation data set. The lower the score the better.
 
 ## Vanishing gradient problem
 
