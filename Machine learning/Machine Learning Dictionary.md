@@ -3,6 +3,8 @@ Machine Learning Dictionary
 
 # A
 
+## Apriori prediction
+
 ## Artificial Neural Network
 
 Neural networks are a computational approach which is based on a large
@@ -57,6 +59,16 @@ the weights are recalculated.
 - Paper - [One-shot Learning with Memory-Augmented Neural Networks](https://arxiv.org/pdf/1605.06065v1.pdf)
 - Github - [ntm-one-shot](https://github.com/tristandeleu/ntm-one-shot)
 - Paper - [Matching Networks for One Shot Learning](https://arxiv.org/pdf/1606.04080v1.pdf)
+
+## Bias
+
+Statistical bias is a feature of a statistical technique or of its results
+whereby the expected value of the results differs from the true underlying
+quantitative parameter being estimated.
+
+![TensorFlow example Bias](https://www.tensorflow.org/images/softmax-regression-scalargraph.png)
+
+b[n] is the bias added to the weight calculation.
 
 ## Binary neuron
 
@@ -241,6 +253,8 @@ See transfer learning
 # J
 # K
 
+## K-Nearest neighbor
+
 ## Keras
 
 Keras is a high level neural network which uses eather Tensorflow, or Theano.
@@ -385,6 +399,11 @@ See artificial neuron.
 The goal of the function in a network is to minimize the loss so to
 maximize the accuracy of the network.
 
+## One-hot vector
+
+A one-hot vector is a vector which is 0 in most dimensions, and 1 in
+a single dimension. For example [0, 0, 0, 1, 0, 0, 0, 0, 0, 0].
+
 ## One Shot Learning
 
 See Bayesian Program Learning.
@@ -479,6 +498,24 @@ Softmax is a function usually called at the end of a Neural Network
 for classification. This functions does a multinomial logistic regression
 and is generally used for multi class classification. Cross entropy is
 often used in combination as a loss function.
+
+Softmax is often used as the final layer in a network to assign probabilities
+to a object if the object can be different things. All the given probabilities
+should add up to 1.
+
+y = softmax(evidence)
+
+The equation would look like the following:
+
+![TensorFlow example Softmax equation](https://www.tensorflow.org/images/softmax-regression-scalarequation.png)
+
+Or vectorized:
+
+![TensorFlow example Softmax equation](https://www.tensorflow.org/images/softmax-regression-vectorequation.png)
+
+Which can be written as y = softmax(Wx + b).
+
+- Neural and network deep learning [CHAPTER 3 - Improving the way neural networks learn](http://neuralnetworksanddeeplearning.com/chap3.html#softmax)
 
 ## Softmax regression
 
@@ -586,6 +623,15 @@ networks begins to lose the context of the input prior after about 7 steps.
 An array of numbers where each element is identified by a single index.
 
 # W
+
+## Weights
+
+Weights are used within neural networks to derive the possibility of what a
+objects class could be.
+
+When the weight is positive, it afirms the change of a object being of a certain
+class. When the weight is negative, it is evidence against being from that class.
+
 # X
 # Y
 # Z
