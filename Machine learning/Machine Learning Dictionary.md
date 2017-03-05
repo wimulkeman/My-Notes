@@ -109,7 +109,14 @@ See also Artificial Neural Network.
 
 - Wikipedia - [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
-## Cross entropy
+## Cost
+
+Used as a term to describe how far off the network is from the desired outcome. Also called loss.
+The lower the cost score, the better.
+
+The cross-entropy function is often used to calculate the cost or loss.
+
+## Cross-entropy
 
 Cross entropy is used to calculate how far off the label prediction is.
 It is a loss function which is related to the entropy of thermodynamics
@@ -326,6 +333,10 @@ gradient problem.
 
 - Wikipedia - [Long Short Term Memory](https://en.wikipedia.org/wiki/Long_short-term_memory)
 
+## Loss
+
+See cost.
+
 ## Loss function
 
 See Objective function.
@@ -520,6 +531,15 @@ Which can be written as y = softmax(Wx + b).
 ## Softmax regression
 
 See Multinomial logistic regression.
+
+## Stochastic gradient decent
+
+A form of Stochastic training which is combinend with gradient decent to derive
+the right value for the wieghts and bias.
+
+## Stochastic training
+
+Using small batches of random data to train the neural network.
 
 # T
 
