@@ -60,6 +60,18 @@ the weights are recalculated.
 - Github - [ntm-one-shot](https://github.com/tristandeleu/ntm-one-shot)
 - Paper - [Matching Networks for One Shot Learning](https://arxiv.org/pdf/1606.04080v1.pdf)
 
+## Bayesian theorem
+
+P(B|A) P(A)<br>
+-------------- = P(A|B)<br>
+P(B)
+
+or
+
+Number of favorable (desired) outcomes<br>
+------------------------------------------------- = Theoretical probabillty<br>
+Total number of of possible outcomes
+
 ## Bias
 
 Statistical bias is a feature of a statistical technique or of its results
