@@ -218,6 +218,10 @@ because they lack an output gate.
 
 - Wikipedia - (Gated Recurrent Unit)[https://en.wikipedia.org/wiki/Gated_recurrent_unit]
 
+## GloVe
+
+Equilevent of word2vec, but works a bit faster.
+
 ## GNMT
 
 See Google Neural Machine Translation system.
@@ -380,6 +384,20 @@ See artificial neuron.
 
 See McCulloch-Pitts Neuron.
 
+## MANN
+
+See Memory Augmented Neural Network.
+
+## Memory Augmented Neural Network
+
+The implementation of One-Shot learning, but with the usage of a neural network.
+Introduced with a paper by Google DeepMind.
+
+A MANN consists of two parts. The first part is the controller and is a feed-forward
+network, or a LSTM network. The second part is a external memory module.	
+
+- arXiv - [One-shot Learning with Memory-Augmented Neural Networks](https://arxiv.org/abs/1605.06065)
+
 ## Multiclass LR
 
 See Multinomial logistic regression.
@@ -407,9 +425,18 @@ See linear regression.
 
 See Gradient.
 
+## Natural Language Processing
+
+A field of study in which natural spoken or written language is used to
+retrieve the users intended actino.
+
 ## Neural networks
 
 See Artificial Neural Networks.
+
+## NLP
+
+See Natural Language Processing.
 
 ## NV neuron
 
@@ -663,6 +690,11 @@ objects class could be.
 
 When the weight is positive, it afirms the change of a object being of a certain
 class. When the weight is negative, it is evidence against being from that class.
+
+## Word2vec
+
+Word2vec is a technique introduced by Google to replace words with vectors. These
+vectors can then be used to train a neural network within a NLP field.
 
 # X
 # Y
