@@ -146,6 +146,10 @@ data which represents the same values as the original data.
 
 - R-Bloggers - [What you need to know about data augmentation for machine learning](https://www.r-bloggers.com/what-you-need-to-know-about-data-augmentation-for-machine-learning/)
 
+## Deep learning
+
+Buzzword used for Artificial Neural Networks. See Artificial Neural Networks.
+
 ## Dependent variable
 
 Dependent variables represent the output or outcome whose variation is
