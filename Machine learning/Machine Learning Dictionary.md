@@ -95,6 +95,13 @@ of the composition of two or more functions.
 
 - Wikipedia - [Chain rule](https://en.wikipedia.org/wiki/Chain_rule)
 
+## Cloud AutoML
+
+Platform for Google witch provides pre-trained models for using in
+easy-to-use ML setups.
+
+- Google - [Cloud AutoML](https://cloud.google.com/automl/zz)
+
 ## CNN
 
 See Convolutional Neural Network.
@@ -213,6 +220,10 @@ neural networks.
 
 # G
 
+## GAN
+
+See General Adversarial Network.
+
 ## Gated Recurrent Unit
 
 A GRU is similar to LSTM, but have fewer parameters than a LSTM. That is
@@ -220,7 +231,33 @@ because they lack an output gate.
 
 ![LSTM / GRU](https://cdn-images-1.medium.com/max/2000/1*K9g9EOeQ9Ca0jdOMmXKrQg.png)
 
-- Wikipedia - (Gated Recurrent Unit)[https://en.wikipedia.org/wiki/Gated_recurrent_unit]
+- Wikipedia - [Gated Recurrent Unit](https://en.wikipedia.org/wiki/Gated_recurrent_unit)
+
+## Generative Adversarial Network
+
+The approach, known as a generative adversarial network, or GAN,
+takes two neural networks—the simplified mathematical models of the
+human brain that underpin most modern machine learning—and pits them
+against each other in a digital cat-and-mouse game.
+
+Both networks are trained on the same data set. One, known as the
+generator, is tasked with creating variations on images it’s already
+seen—perhaps a picture of a pedestrian with an extra arm. The second,
+known as the discriminator, is asked to identify whether the example
+it sees is like the images it has been trained on or a fake produced
+by the generator—basically, is that three-armed person likely to be real?
+
+Over time, the generator can become so good at producing images that
+the discriminator can’t spot fakes. Essentially, the generator has
+been taught to recognize, and then create, realistic-looking images
+of pedestrians.
+
+The technology has become one of the most promising advances in AI in
+the past decade, able to help machines produce results that fool even humans.
+
+- ARXIV - [Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661.pdf)
+- GitHub - [The GAN Zoo](https://github.com/hindupuravinash/the-gan-zoo)
+- Technology Review - [10 BREAKTHROUGH TECHNOLOGIES 2018 > Dueling Neural Networks](https://www.technologyreview.com/lists/technologies/2018/)
 
 ## GloVe
 
@@ -708,3 +745,7 @@ vectors can then be used to train a neural network within a NLP field.
 
 - Medium - [Deep Learning Cheat Sheet](https://hackernoon.com/deep-learning-cheat-sheet-25421411e460#.1fde6uhjf)
 - RapidTables - [Mathematical Symbols](http://www.rapidtables.com/math/symbols/index.htm)
+
+# Other glossaries - dictionaries
+
+- [Google Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
