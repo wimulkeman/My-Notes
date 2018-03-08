@@ -153,6 +153,11 @@ data which represents the same values as the original data.
 
 - R-Bloggers - [What you need to know about data augmentation for machine learning](https://www.r-bloggers.com/what-you-need-to-know-about-data-augmentation-for-machine-learning/)
 
+## Descriptive model
+
+A prediction model which also give information about how and why it made its
+prediction.
+
 ## Deep learning
 
 Buzzword used for Artificial Neural Networks. See Artificial Neural Networks.
