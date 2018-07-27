@@ -14,3 +14,9 @@ the hour.
 
 - Stackoverflow [Run Cron job every N minutes plus offset
 ](http://stackoverflow.com/a/19204734)
+
+# Edit a crontab using VIM (or another editor)
+
+```bash
+export VISUAL=vim; crontab -e
+```
