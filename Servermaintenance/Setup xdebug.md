@@ -16,4 +16,4 @@ xdebug.remote_connect_back = 0
 xdebug.remote_host = localhost
 3. Change the following config in php.ini: `implicit_flush = Off` > `implicit_flush = On`
 
-Bron https://docs.joomla.org/Edit_PHP.INI_File_for_XDebug
+Source https://docs.joomla.org/Edit_PHP.INI_File_for_XDebug
