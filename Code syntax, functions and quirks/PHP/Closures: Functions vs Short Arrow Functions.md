@@ -13,7 +13,7 @@ Arrow functions have full access to the scope they are implemented in. Therefore
 The thought behind this is that normal functions have a larger body which could make it harder
 to keep track which variable name is used in which scope when both would be mixed by default.
 The arrow functions are normally one-lines which reduces the cognitive load for the developer.
--- Source: PHP Internals News Podcast - Episode 4: Short Arrow Functions
+  -- Source: PHP Internals News Podcast - Episode 4: Short Arrow Functions - Nikitia Popov
 
 ```php
 <?php
