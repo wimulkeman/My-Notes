@@ -14,9 +14,11 @@ use Doctrine\Bundle\DoctrineBundle\Attribute\AsDoctrineListener;
 use Doctrine\ORM\Event\PostFlushEventArgs;
 use Doctrine\ORM\Event\PostLoadEventArgs;
 use Doctrine\ORM\Event\PostPersistEventArgs;
+use Doctrine\ORM\Event\PostRemoveEventArgs;
 use Doctrine\ORM\Event\PostUpdateEventArgs;
 use Doctrine\ORM\Event\PreFlushEventArgs;
 use Doctrine\ORM\Event\PrePersistEventArgs;
+use Doctrine\ORM\Event\PreRemoveEventArgs;
 use Doctrine\ORM\Event\PreUpdateEventArgs;
 use Doctrine\ORM\Events;
 
@@ -27,6 +29,8 @@ use Doctrine\ORM\Events;
 #[AsDoctrineListener(event: Events::postPersist)] # Is only called when the added entity is new (INSERT)
 #[AsDoctrineListener(event: Events::preUpdate)] # Is only called when an existing entity was modified and saved (UPDATE)
 #[AsDoctrineListener(event: Events::postUpdate)] # Is only called when an existing entity was modified and saved (UPDATE)
+#[AsDoctrineListener(event: Events::preRemove)] # Is only called when an existing entity was removed (DELETE)
+#[AsDoctrineListener(event: Events::postRemove)] # Is only called when an existing entity was removed (DELETE)
 #[AsDoctrineListener(event: Events::postFlush)] # Is always called when adding an entity to the Unit of Work
 class DoctrineLifecycleListener
 {
@@ -38,6 +42,20 @@ class DoctrineLifecycleListener
     }
 
     public function postUpdate(PostUpdateEventArgs $args): void
+    {
+        $entity = $args->getObject();
+        
+        echo 'postUpdate'.PHP_EOL;
+    }
+
+    public function preRemove(PreRemoveEventArgs $args): void
+    {
+        $entity = $args->getObject();
+        
+        echo 'preUpdate'.PHP_EOL;
+    }
+
+    public function postRemove(PostRemoveEventArgs $args): void
     {
         $entity = $args->getObject();
         
