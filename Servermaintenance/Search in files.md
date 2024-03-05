@@ -13,3 +13,9 @@ Where the following params are used:
 * -R = Search recursive in the path provided
 * -n = Alias for --line-number. Show the line mumber for the match in the file
 * -w = Search for word expression
+
+To search in all gz files in the current directory, you can use the following command:
+
+```shell
+find . -name \*.gz -print0 | xargs -0 zgrep "STRING"
+```
